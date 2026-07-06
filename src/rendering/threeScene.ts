@@ -197,8 +197,9 @@ export class SolarSystemEngine {
         const wasOn = this.visibilityState?.lightTravel ?? false
         this.visibilityState = v
         if (v.lightTravel !== wasOn) {
+          // The toggle governs automatic pulsation only; pulses already in
+          // flight (auto or manual) keep expanding until they cull naturally.
           this.lightSim.setAutoEmit(v.lightTravel, this.clock.timeSec)
-          if (!v.lightTravel) this.lightSim.clear()
         }
       }),
       timeScale.subscribe((v) => (this.clock.timeScale = v)),
@@ -209,10 +210,8 @@ export class SolarSystemEngine {
         if (cmd.command.kind === 'emitLightPulse') {
           this.lightSim.emit(this.clock.timeSec)
         } else if (cmd.command.kind === 'clearLightPulses') {
-          // Clear AND stop auto-emission, otherwise a new pulse would pop up
-          // within one interval and the button would feel broken. "Emit light
-          // pulse" or re-toggling the layer starts things up again.
-          this.lightSim.setAutoEmit(false, this.clock.timeSec)
+          // Removes wavefronts only; if the auto-pulse toggle is on, the next
+          // automatic pulse still arrives on its regular interval.
           this.lightSim.clear()
         } else if (cmd.command.kind === 'resetView') {
           this.cameraCtl.clearPan()
@@ -328,12 +327,10 @@ export class SolarSystemEngine {
       z: sun.displayPos.z - focus.z,
     }
     this.sunLight.position.set(sunRel.x, sunRel.y, sunRel.z)
-    this.lightRenderer.update(
-      this.lightSim.radiiKm(simTime),
-      this.mode,
-      sunRel,
-      this.visibilityState.lightTravel,
-    )
+    // Wavefronts render whenever pulses are in flight — a manually emitted
+    // pulse must be visible even with automatic pulsation toggled off.
+    const pulseRadiiKm = this.lightSim.radiiKm(simTime)
+    this.lightRenderer.update(pulseRadiiKm, this.mode, sunRel, pulseRadiiKm.length > 0)
 
     this.starfield.position.copy(camera.position)
     this.starfield.scale.setScalar(camera.far * 0.45)

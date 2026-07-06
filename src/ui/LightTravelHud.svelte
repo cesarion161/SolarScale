@@ -8,7 +8,9 @@
   const slowTime = $derived($timeScale > 3600)
 </script>
 
-{#if $visibility.lightTravel}
+<!-- Shown while the auto-pulse toggle is on OR any pulse is still in flight,
+     so a single manually emitted pulse gets its readout too. -->
+{#if $visibility.lightTravel || pulseAge !== null}
   <aside class="hud panel">
     <h3>☀ Sunlight in flight</h3>
     {#if pulseAge !== null}

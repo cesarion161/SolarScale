@@ -1,4 +1,3 @@
-import { get } from 'svelte/store'
 import {
   engineCommand,
   paused,
@@ -45,8 +44,8 @@ export function sendEngineCommand(command: EngineCommand): void {
 }
 
 export function emitLightPulse(): void {
-  // Ensure the layer is visible when the user explicitly fires a pulse.
-  if (!get(visibility).lightTravel) toggleCategory('lightTravel')
+  // Fires exactly one pulse; deliberately does NOT enable the auto-pulse
+  // toggle — that switch governs automatic pulsation only.
   sendEngineCommand({ kind: 'emitLightPulse' })
 }
 

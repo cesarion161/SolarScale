@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { scaleMode, visibility, type VisibilityCategory } from '../state/stores'
+  import { liveReadout, scaleMode, visibility, type VisibilityCategory } from '../state/stores'
   import {
     setScaleMode,
     toggleCategory,
@@ -19,7 +19,7 @@
     { key: 'comets', label: 'Comets' },
     { key: 'orbits', label: 'Orbit paths' },
     { key: 'labels', label: 'Labels' },
-    { key: 'lightTravel', label: 'Sunlight travel' },
+    { key: 'lightTravel', label: 'Auto light pulses' },
   ]
 </script>
 
@@ -64,11 +64,17 @@
     </section>
 
     <section class="actions">
-      <button class="pill" onclick={emitLightPulse}>☀ Emit light pulse</button>
-      {#if $visibility.lightTravel}
+      <button
+        class="pill"
+        title="Send a single wavefront from the Sun (does not turn on automatic pulses)"
+        onclick={emitLightPulse}
+      >
+        ☀ Emit light pulse
+      </button>
+      {#if $liveReadout.lightPulseAgeSec !== null}
         <button
           class="pill"
-          title="Remove all wavefronts and stop automatic pulses"
+          title="Remove all wavefronts currently in flight"
           onclick={clearLightPulses}
         >
           ✕ Clear pulses

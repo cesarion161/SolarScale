@@ -13,8 +13,8 @@ export interface LightPulse {
   emittedAtSimSec: number
 }
 
-/** Beyond this the pulse is culled (a bit past Neptune's aphelion). */
-const MAX_RADIUS_KM = 35 * AU_KM
+/** Beyond this the pulse is culled (a bit past Pluto's aphelion, ~49 AU). */
+const MAX_RADIUS_KM = 55 * AU_KM
 
 export class LightTravelSimulation {
   private pulses: LightPulse[] = []
@@ -22,8 +22,8 @@ export class LightTravelSimulation {
   private lastAutoEmitSimSec = -Infinity
   /**
    * Auto-emit spacing in simulated seconds. Two hours of light travel
-   * (~14 AU) keeps successive wavefronts readable at system scale, and six
-   * pooled pulses span past Neptune before the oldest is recycled.
+   * (~14 AU) keeps successive wavefronts readable at system scale; pulses
+   * are culled past Pluto before the six-slot pool needs to recycle.
    */
   autoEmitIntervalSimSec = 7200
 
