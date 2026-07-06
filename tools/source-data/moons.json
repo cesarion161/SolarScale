@@ -1,0 +1,265 @@
+[
+  {
+    "id": "moon",
+    "name": "Moon",
+    "parentId": "earth",
+    "radiusKm": 1737.4,
+    "massKg": 7.342e22,
+    "color": "#b8b4ae",
+    "surface": "cratered",
+    "aKm": 384400,
+    "e": 0.0549,
+    "iDeg": 5.145,
+    "periodDays": 27.3217,
+    "description": "Earth's companion, a quarter of Earth's diameter — proportionally the largest moon of any planet. Its distance is famously underestimated: all seven other planets would fit in the gap.",
+    "facts": [
+      "Light from the Moon reaches Earth in 1.3 seconds.",
+      "The Moon drifts 3.8 cm farther from Earth every year.",
+      "It is tidally locked: the same face always points at Earth."
+    ]
+  },
+  {
+    "id": "phobos",
+    "name": "Phobos",
+    "parentId": "mars",
+    "radiusKm": 11.27,
+    "color": "#7a7168",
+    "surface": "rockyDark",
+    "aKm": 9376,
+    "e": 0.0151,
+    "iDeg": 1.093,
+    "periodDays": 0.3189,
+    "description": "Mars's larger moon orbits so close and so fast that it rises in the west and sets in the east — twice a day.",
+    "facts": [
+      "Phobos is spiralling inward and will crash into Mars or shatter into a ring within ~50 million years."
+    ]
+  },
+  {
+    "id": "deimos",
+    "name": "Deimos",
+    "parentId": "mars",
+    "radiusKm": 6.2,
+    "color": "#867d72",
+    "surface": "rockyDark",
+    "aKm": 23463,
+    "e": 0.00033,
+    "iDeg": 0.93,
+    "periodDays": 1.2624,
+    "description": "Mars's smaller, outer moon — a lumpy rock just 12 km across, probably a captured asteroid.",
+    "facts": [
+      "From Mars's surface, Deimos looks like a bright star rather than a moon."
+    ]
+  },
+  {
+    "id": "io",
+    "name": "Io",
+    "parentId": "jupiter",
+    "radiusKm": 1821.6,
+    "massKg": 8.93e22,
+    "color": "#d8c05a",
+    "surface": "venusian",
+    "aKm": 421800,
+    "e": 0.0041,
+    "iDeg": 0.036,
+    "periodDays": 1.7691,
+    "description": "The most volcanically active world in the Solar System, kneaded by Jupiter's tides. Hundreds of volcanoes erupt sulfur across its yellow surface.",
+    "facts": [
+      "Io's volcanic plumes can rise 500 km into space."
+    ]
+  },
+  {
+    "id": "europa",
+    "name": "Europa",
+    "parentId": "jupiter",
+    "radiusKm": 1560.8,
+    "massKg": 4.8e22,
+    "color": "#d9cfc2",
+    "surface": "icy",
+    "aKm": 671100,
+    "e": 0.009,
+    "iDeg": 0.466,
+    "periodDays": 3.5512,
+    "description": "An ice-covered moon hiding a global ocean with more liquid water than all of Earth's oceans combined — a prime candidate in the search for life.",
+    "facts": [
+      "The cracked 'chaos terrain' on its surface suggests the ice shell shifts over the ocean below."
+    ]
+  },
+  {
+    "id": "ganymede",
+    "name": "Ganymede",
+    "parentId": "jupiter",
+    "radiusKm": 2634.1,
+    "massKg": 1.48e23,
+    "color": "#9a8f7d",
+    "surface": "cratered",
+    "aKm": 1070400,
+    "e": 0.0013,
+    "iDeg": 0.177,
+    "periodDays": 7.1546,
+    "description": "The largest moon in the Solar System — bigger than the planet Mercury — and the only moon with its own magnetic field.",
+    "facts": [
+      "Ganymede also likely hides a deep subsurface ocean beneath its icy crust."
+    ]
+  },
+  {
+    "id": "callisto",
+    "name": "Callisto",
+    "parentId": "jupiter",
+    "radiusKm": 2410.3,
+    "massKg": 1.08e23,
+    "color": "#6f665c",
+    "surface": "cratered",
+    "aKm": 1882700,
+    "e": 0.0074,
+    "iDeg": 0.192,
+    "periodDays": 16.689,
+    "description": "The most heavily cratered object known — a fossil surface unchanged for 4 billion years, orbiting far outside Jupiter's radiation belts.",
+    "facts": [
+      "Its distance from Jupiter's radiation makes Callisto a favoured site for hypothetical crewed bases."
+    ]
+  },
+  {
+    "id": "enceladus",
+    "name": "Enceladus",
+    "parentId": "saturn",
+    "radiusKm": 252.1,
+    "color": "#e8eef2",
+    "surface": "icy",
+    "aKm": 238040,
+    "e": 0.0047,
+    "iDeg": 0.009,
+    "periodDays": 1.3702,
+    "description": "A small, brilliantly white moon that shoots geysers of salty water from its south pole — direct samples of a subsurface ocean, delivered to space.",
+    "facts": [
+      "Enceladus reflects nearly 100% of the sunlight that hits it, making it the most reflective body in the Solar System.",
+      "Its geysers feed Saturn's E ring."
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "parentId": "saturn",
+    "radiusKm": 2574.7,
+    "massKg": 1.345e23,
+    "color": "#d9a44a",
+    "surface": "venusian",
+    "aKm": 1221870,
+    "e": 0.0288,
+    "iDeg": 0.348,
+    "periodDays": 15.945,
+    "description": "Saturn's giant moon, the only moon with a thick atmosphere — and the only other world with rain, rivers, lakes and seas. There, the liquid is methane at −179 °C.",
+    "facts": [
+      "Titan's atmosphere is denser than Earth's.",
+      "The Huygens probe landed here in 2005 — the most distant landing ever made."
+    ]
+  },
+  {
+    "id": "rhea",
+    "name": "Rhea",
+    "parentId": "saturn",
+    "radiusKm": 763.8,
+    "color": "#b5b1a9",
+    "surface": "icy",
+    "aKm": 527070,
+    "e": 0.0013,
+    "iDeg": 0.35,
+    "periodDays": 4.5182,
+    "description": "Saturn's second-largest moon, an ancient ball of dirty water ice, heavily cratered and quiet.",
+    "facts": []
+  },
+  {
+    "id": "iapetus",
+    "name": "Iapetus",
+    "parentId": "saturn",
+    "radiusKm": 734.5,
+    "color": "#8a8176",
+    "surface": "cratered",
+    "aKm": 3560840,
+    "e": 0.0283,
+    "iDeg": 15.47,
+    "periodDays": 79.3215,
+    "description": "The two-faced moon: one hemisphere is coal-dark, the other snow-bright. A mysterious equatorial ridge makes it look like a walnut.",
+    "facts": [
+      "Its bright side is about ten times more reflective than its dark side."
+    ]
+  },
+  {
+    "id": "miranda",
+    "name": "Miranda",
+    "parentId": "uranus",
+    "radiusKm": 235.8,
+    "color": "#a8a8b0",
+    "surface": "icy",
+    "aKm": 129900,
+    "e": 0.0013,
+    "iDeg": 4.34,
+    "periodDays": 1.4135,
+    "description": "A patchwork moon of cliffs and canyons that looks reassembled from broken pieces. Its cliff Verona Rupes is up to 20 km tall — the highest known.",
+    "facts": [
+      "Jumping off Verona Rupes, you would fall for about 12 minutes."
+    ]
+  },
+  {
+    "id": "titania",
+    "name": "Titania",
+    "parentId": "uranus",
+    "radiusKm": 788.4,
+    "color": "#95908a",
+    "surface": "cratered",
+    "aKm": 436300,
+    "e": 0.0011,
+    "iDeg": 0.34,
+    "periodDays": 8.7062,
+    "description": "The largest moon of Uranus, scarred by enormous canyons from an era when its interior froze and expanded.",
+    "facts": []
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon",
+    "parentId": "uranus",
+    "radiusKm": 761.4,
+    "color": "#847e76",
+    "surface": "cratered",
+    "aKm": 583500,
+    "e": 0.0014,
+    "iDeg": 0.058,
+    "periodDays": 13.4632,
+    "description": "The outermost large moon of Uranus, old and cratered, named — like all Uranian moons — after a Shakespeare character.",
+    "facts": []
+  },
+  {
+    "id": "triton",
+    "name": "Triton",
+    "parentId": "neptune",
+    "radiusKm": 1353.4,
+    "massKg": 2.14e22,
+    "color": "#d3c8be",
+    "surface": "icy",
+    "aKm": 354760,
+    "e": 0.000016,
+    "iDeg": 157,
+    "periodDays": -5.8769,
+    "description": "Neptune's big moon orbits backwards — the only large moon that does — a telltale sign it was captured from the Kuiper belt. Nitrogen geysers erupt from its frozen surface.",
+    "facts": [
+      "Triton's retrograde orbit is slowly decaying; in a few billion years Neptune's gravity will tear it apart.",
+      "At −235 °C it is one of the coldest places known."
+    ]
+  },
+  {
+    "id": "charon",
+    "name": "Charon",
+    "parentId": "pluto",
+    "radiusKm": 606,
+    "massKg": 1.586e21,
+    "color": "#93887e",
+    "surface": "cratered",
+    "aKm": 19591,
+    "e": 0.0002,
+    "iDeg": 0.08,
+    "periodDays": 6.3872,
+    "description": "Pluto's giant companion — half Pluto's diameter, so large that the pair form a true double dwarf-planet system.",
+    "facts": [
+      "Pluto and Charon always show each other the same face: both are tidally locked."
+    ]
+  }
+]

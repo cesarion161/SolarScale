@@ -1,0 +1,94 @@
+[
+  {
+    "id": "halley",
+    "name": "1P/Halley",
+    "radiusKm": 5.5,
+    "color": "#bcd6e8",
+    "surface": "rockyDark",
+    "aAu": 17.834,
+    "e": 0.96714,
+    "iDeg": 162.26,
+    "nodeDeg": 58.42,
+    "periDeg": 111.33,
+    "m0Deg": 66.4,
+    "periodYears": 75.32,
+    "description": "The most famous comet, returning every 75–76 years. Its 1986 visit was met by a fleet of spacecraft; it returns in 2061. Its orbit is retrograde — it circles the Sun backwards.",
+    "facts": [
+      "Recorded by astronomers since at least 240 BC.",
+      "Halley's dust causes two meteor showers every year: the Eta Aquariids and the Orionids."
+    ]
+  },
+  {
+    "id": "encke",
+    "name": "2P/Encke",
+    "radiusKm": 2.4,
+    "color": "#b8c8d6",
+    "surface": "rockyDark",
+    "aAu": 2.215,
+    "e": 0.8483,
+    "iDeg": 11.78,
+    "nodeDeg": 334.57,
+    "periDeg": 186.55,
+    "m0Deg": 284,
+    "periodYears": 3.3,
+    "description": "The comet with the shortest known orbital period: just 3.3 years. Its debris stream produces the Taurid meteor showers.",
+    "facts": [
+      "Encke has been observed on more returns than any other comet."
+    ]
+  },
+  {
+    "id": "churyumov",
+    "name": "67P/Churyumov–Gerasimenko",
+    "radiusKm": 2.0,
+    "color": "#aab6c2",
+    "surface": "rockyDark",
+    "aAu": 3.463,
+    "e": 0.641,
+    "iDeg": 7.04,
+    "nodeDeg": 50.14,
+    "periDeg": 12.78,
+    "m0Deg": 211,
+    "periodYears": 6.44,
+    "description": "The rubber-duck-shaped comet orbited for two years by ESA's Rosetta spacecraft, which landed the Philae probe on it in 2014 — the first comet landing in history.",
+    "facts": [
+      "Rosetta revealed the comet is two lobes gently fused together, softer than packed snow in places."
+    ]
+  },
+  {
+    "id": "halebopp",
+    "name": "C/1995 O1 (Hale–Bopp)",
+    "radiusKm": 30,
+    "color": "#cfe0f0",
+    "surface": "rockyDark",
+    "aAu": 186,
+    "e": 0.99511,
+    "iDeg": 89.43,
+    "nodeDeg": 282.47,
+    "periDeg": 130.59,
+    "m0Deg": 0.38,
+    "periodYears": 2533,
+    "description": "The Great Comet of 1997, visible to the naked eye for a record 18 months. With a nucleus around 60 km across, it is one of the largest comets ever observed.",
+    "facts": [
+      "Hale–Bopp won't return until roughly the year 4385.",
+      "Its orbit is tilted almost 90° to the plane of the planets — look for it far above the ecliptic."
+    ]
+  },
+  {
+    "id": "swifttuttle",
+    "name": "109P/Swift–Tuttle",
+    "radiusKm": 13,
+    "color": "#c2d2e0",
+    "surface": "rockyDark",
+    "aAu": 26.09,
+    "e": 0.9632,
+    "iDeg": 113.45,
+    "nodeDeg": 139.38,
+    "periDeg": 153.0,
+    "m0Deg": 19,
+    "periodYears": 133.28,
+    "description": "The parent of the Perseid meteor shower: every August, Earth ploughs through the dust this comet leaves behind. It returns in 2126.",
+    "facts": [
+      "At 26 km across, it is the largest known object that repeatedly passes close to Earth."
+    ]
+  }
+]

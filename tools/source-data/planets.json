@@ -1,0 +1,250 @@
+[
+  {
+    "id": "sun",
+    "name": "Sun",
+    "category": "star",
+    "radiusKm": 695700,
+    "massKg": 1.989e30,
+    "color": "#ffcf6b",
+    "surface": "sun",
+    "rotationHours": 609.12,
+    "axialTiltDeg": 7.25,
+    "description": "The star that holds it all together. The Sun contains 99.86% of the Solar System's mass — every planet, moon, asteroid and comet combined is a rounding error next to it.",
+    "facts": [
+      "About 1.3 million Earths would fit inside the Sun.",
+      "Sunlight takes 8 minutes 19 seconds to reach Earth — and over 4 hours to reach Neptune.",
+      "In True Scale mode, notice how even the Sun becomes a tiny dot compared to the distances between planets."
+    ]
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "category": "planet",
+    "radiusKm": 2439.7,
+    "massKg": 3.301e23,
+    "color": "#9c8e84",
+    "surface": "cratered",
+    "rotationHours": 1407.6,
+    "axialTiltDeg": 0.034,
+    "orbit": { "aAu": 0.38709893, "e": 0.20563069, "iDeg": 7.00487, "nodeDeg": 48.33167, "periDeg": 29.12478, "m0Deg": 174.79439, "periodDays": 87.9691 },
+    "description": "The smallest planet and the closest to the Sun, a cratered world of extremes: 430 °C in daylight, −180 °C at night.",
+    "facts": [
+      "A single Mercury day (sunrise to sunrise) lasts 176 Earth days — longer than its year.",
+      "Sunlight reaches Mercury in just 3.2 minutes.",
+      "Despite being closest to the Sun, it is not the hottest planet — Venus is."
+    ]
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "category": "planet",
+    "radiusKm": 6051.8,
+    "massKg": 4.867e24,
+    "color": "#e6c98d",
+    "surface": "venusian",
+    "rotationHours": -5832.5,
+    "axialTiltDeg": 177.36,
+    "orbit": { "aAu": 0.72333199, "e": 0.00677323, "iDeg": 3.39471, "nodeDeg": 76.68069, "periDeg": 54.85229, "m0Deg": 50.44675, "periodDays": 224.701 },
+    "description": "Earth's twin in size, wrapped in a crushing carbon-dioxide atmosphere with clouds of sulfuric acid. Its runaway greenhouse effect makes it the hottest planet.",
+    "facts": [
+      "Venus spins backwards (retrograde) — the Sun rises in the west.",
+      "One rotation takes 243 Earth days, longer than its 225-day year.",
+      "Surface pressure is 92× Earth's — like being 900 m underwater."
+    ]
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "category": "planet",
+    "radiusKm": 6371,
+    "massKg": 5.972e24,
+    "color": "#6b93d6",
+    "surface": "earthlike",
+    "rotationHours": 23.9345,
+    "axialTiltDeg": 23.44,
+    "orbit": { "aAu": 1.00000011, "e": 0.01671022, "iDeg": 0.00005, "nodeDeg": -11.26064, "periDeg": 114.20783, "m0Deg": 357.51716, "periodDays": 365.2564 },
+    "description": "Home. The only place in the universe where life is known to exist, orbiting the Sun at 150 million km — one Astronomical Unit, the yardstick for the whole Solar System.",
+    "facts": [
+      "Sunlight you see left the Sun 8 minutes 19 seconds ago. Turn on the Sunlight travel layer to watch it happen.",
+      "In True Scale mode, Earth is about 1/100th of a pixel when the whole system is on screen.",
+      "Earth's axial tilt of 23.4° — not its distance from the Sun — causes the seasons."
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "category": "planet",
+    "radiusKm": 3389.5,
+    "massKg": 6.417e23,
+    "color": "#c1613b",
+    "surface": "martian",
+    "rotationHours": 24.6229,
+    "axialTiltDeg": 25.19,
+    "orbit": { "aAu": 1.52366231, "e": 0.09341233, "iDeg": 1.85061, "nodeDeg": 49.57854, "periDeg": 286.4623, "m0Deg": 19.41248, "periodDays": 686.98 },
+    "description": "The red planet, painted by iron oxide dust. Half Earth's size, with the tallest volcano (Olympus Mons, 21 km) and the deepest canyon system in the Solar System.",
+    "facts": [
+      "A Mars day is 24 hours 37 minutes — eerily close to Earth's.",
+      "Light from the Sun takes 12–13 minutes to reach Mars, which is why rover commands can't be 'live'.",
+      "Its two tiny moons, Phobos and Deimos, are likely captured asteroids."
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "category": "planet",
+    "radiusKm": 69911,
+    "massKg": 1.898e27,
+    "color": "#c8a678",
+    "surface": "gasBands",
+    "rotationHours": 9.925,
+    "axialTiltDeg": 3.13,
+    "orbit": { "aAu": 5.20336301, "e": 0.04839266, "iDeg": 1.3053, "nodeDeg": 100.55615, "periDeg": 274.1977, "m0Deg": 19.65053, "periodDays": 4332.589 },
+    "description": "The giant: 2.5× the mass of all other planets combined. A ball of hydrogen and helium with no solid surface, banded by winds and storms — including the centuries-old Great Red Spot.",
+    "facts": [
+      "Jupiter spins fastest of all planets: a day lasts under 10 hours.",
+      "Over 1,300 Earths would fit inside it — yet 1,000 Jupiters would fit in the Sun.",
+      "Sunlight takes about 43 minutes to reach Jupiter."
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "category": "planet",
+    "radiusKm": 58232,
+    "massKg": 5.683e26,
+    "color": "#e0cba8",
+    "surface": "gasBands",
+    "rotationHours": 10.656,
+    "axialTiltDeg": 26.73,
+    "rings": { "innerRadiusFactor": 1.24, "outerRadiusFactor": 2.27 },
+    "orbit": { "aAu": 9.53707032, "e": 0.0541506, "iDeg": 2.48446, "nodeDeg": 113.71504, "periDeg": 338.7169, "m0Deg": 317.51238, "periodDays": 10759.22 },
+    "description": "The ringed jewel. Saturn's main rings span 280,000 km — three quarters of the Earth–Moon distance — yet are typically only about 10 metres thick.",
+    "facts": [
+      "Saturn is less dense than water: it would float, given a big enough bathtub.",
+      "The rings are billions of chunks of nearly pure water ice, from dust grains to house-sized boulders.",
+      "Sunlight takes about 80 minutes to get here."
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "category": "planet",
+    "radiusKm": 25362,
+    "massKg": 8.681e25,
+    "color": "#9fd6d9",
+    "surface": "iceGiant",
+    "rotationHours": -17.24,
+    "axialTiltDeg": 97.77,
+    "orbit": { "aAu": 19.19126393, "e": 0.04716771, "iDeg": 0.76986, "nodeDeg": 74.22988, "periDeg": 96.73436, "m0Deg": 142.26794, "periodDays": 30685.4 },
+    "description": "An ice giant knocked on its side — its axis is tilted 98°, so it rolls around its orbit like a barrel. Methane in its atmosphere gives it the pale cyan colour.",
+    "facts": [
+      "Each pole gets 42 years of continuous sunlight, then 42 years of darkness.",
+      "Uranus is the coldest planetary atmosphere in the Solar System: −224 °C.",
+      "It was the first planet discovered with a telescope (1781)."
+    ]
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "category": "planet",
+    "radiusKm": 24622,
+    "massKg": 1.024e26,
+    "color": "#4d7be0",
+    "surface": "iceGiant",
+    "rotationHours": 16.11,
+    "axialTiltDeg": 28.32,
+    "orbit": { "aAu": 30.06896348, "e": 0.00858587, "iDeg": 1.76917, "nodeDeg": 131.72169, "periDeg": 273.24966, "m0Deg": 259.90868, "periodDays": 60189 },
+    "description": "The outermost planet, found in 1846 by mathematics before telescopes: its position was predicted from wobbles in Uranus's orbit. Winds here reach 2,100 km/h — the fastest known.",
+    "facts": [
+      "Sunlight takes 4 hours 10 minutes to reach Neptune.",
+      "Neptune has completed just one orbit since its discovery (in 2011).",
+      "It is 30× farther from the Sun than Earth — feel that emptiness in True Scale mode."
+    ]
+  },
+  {
+    "id": "ceres",
+    "name": "Ceres",
+    "category": "dwarfPlanet",
+    "radiusKm": 469.7,
+    "massKg": 9.38e20,
+    "color": "#8a8578",
+    "surface": "cratered",
+    "rotationHours": 9.07,
+    "axialTiltDeg": 4,
+    "orbit": { "aAu": 2.7675, "e": 0.0758, "iDeg": 10.594, "nodeDeg": 80.31, "periDeg": 73.6, "m0Deg": 95.99, "periodDays": 1683.15 },
+    "description": "The largest object in the asteroid belt and the only dwarf planet in the inner Solar System. Alone it holds about a third of the belt's total mass.",
+    "facts": [
+      "Bright salt deposits in Occator crater hint at briny water below the surface.",
+      "Ceres was considered a planet for half a century after its discovery in 1801."
+    ]
+  },
+  {
+    "id": "pluto",
+    "name": "Pluto",
+    "category": "dwarfPlanet",
+    "radiusKm": 1188.3,
+    "massKg": 1.303e22,
+    "color": "#cfb8a0",
+    "surface": "icy",
+    "rotationHours": -153.29,
+    "axialTiltDeg": 122.53,
+    "orbit": { "aAu": 39.482, "e": 0.2488, "iDeg": 17.16, "nodeDeg": 110.3, "periDeg": 113.83, "m0Deg": 14.53, "periodDays": 90560 },
+    "description": "The most famous dwarf planet, a world of nitrogen ice plains and water-ice mountains in the Kuiper belt. Its orbit is so eccentric that it sometimes comes closer to the Sun than Neptune.",
+    "facts": [
+      "A year on Pluto lasts 248 Earth years.",
+      "Pluto and its moon Charon orbit a point in space between them — a true double system.",
+      "Noon sunlight on Pluto is about as bright as dusk on Earth."
+    ]
+  },
+  {
+    "id": "haumea",
+    "name": "Haumea",
+    "category": "dwarfPlanet",
+    "radiusKm": 816,
+    "massKg": 4.01e21,
+    "color": "#cfcfd4",
+    "surface": "icy",
+    "rotationHours": 3.92,
+    "axialTiltDeg": 0,
+    "orbit": { "aAu": 43.13, "e": 0.195, "iDeg": 28.21, "nodeDeg": 122.17, "periDeg": 238.78, "m0Deg": 218, "periodDays": 103410 },
+    "description": "A Kuiper-belt dwarf planet spinning so fast — one rotation every 4 hours — that it has been stretched into an egg shape.",
+    "facts": [
+      "Haumea has two known moons and even a thin ring.",
+      "Its day is the shortest of any large body in the Solar System."
+    ]
+  },
+  {
+    "id": "makemake",
+    "name": "Makemake",
+    "category": "dwarfPlanet",
+    "radiusKm": 715,
+    "massKg": 3.1e21,
+    "color": "#c49a76",
+    "surface": "icy",
+    "rotationHours": 22.83,
+    "axialTiltDeg": 0,
+    "orbit": { "aAu": 45.79, "e": 0.159, "iDeg": 28.98, "nodeDeg": 79.62, "periDeg": 294.83, "m0Deg": 165.5, "periodDays": 112897 },
+    "description": "A reddish Kuiper-belt dwarf planet, one of the brightest objects beyond Neptune, covered in frozen methane.",
+    "facts": [
+      "Its discovery in 2005 helped trigger the debate that redefined 'planet'.",
+      "Sunlight takes over 6 hours to reach Makemake."
+    ]
+  },
+  {
+    "id": "eris",
+    "name": "Eris",
+    "category": "dwarfPlanet",
+    "radiusKm": 1163,
+    "massKg": 1.66e22,
+    "color": "#d8d8dc",
+    "surface": "icy",
+    "rotationHours": 25.9,
+    "axialTiltDeg": 0,
+    "orbit": { "aAu": 67.86, "e": 0.4361, "iDeg": 44.04, "nodeDeg": 35.95, "periDeg": 151.64, "m0Deg": 205.99, "periodDays": 203830 },
+    "description": "Slightly smaller than Pluto but more massive, Eris is the most distant dwarf planet — currently about three times farther from the Sun than Pluto.",
+    "facts": [
+      "Its discovery as a 'tenth planet' in 2005 led to Pluto's reclassification a year later.",
+      "One Eris year lasts 558 Earth years."
+    ]
+  }
+]

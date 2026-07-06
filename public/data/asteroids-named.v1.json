@@ -1,0 +1,95 @@
+[
+  {
+    "id": "vesta",
+    "name": "4 Vesta",
+    "category": "asteroid",
+    "physical": {
+      "radiusKm": 262.7,
+      "massKg": 259000000000000000000
+    },
+    "color": "#a89c88",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 353275371.65804994,
+      "eccentricity": 0.0886,
+      "inclinationRad": 0.12461650859239512,
+      "ascendingNodeRad": 1.812524428196111,
+      "argPeriapsisRad": 2.638763296090227,
+      "meanAnomalyAtEpochRad": 3.5779249665883754,
+      "periodSec": 114544800
+    },
+    "description": "The second-most-massive asteroid and the brightest one visible from Earth. NASA's Dawn spacecraft orbited it in 2011–2012 and found a world with a giant impact basin at its south pole.",
+    "facts": [
+      "Around 1 in 20 meteorites found on Earth are chips knocked off Vesta."
+    ]
+  },
+  {
+    "id": "pallas",
+    "name": "2 Pallas",
+    "category": "asteroid",
+    "physical": {
+      "radiusKm": 256,
+      "massKg": 204000000000000000000
+    },
+    "color": "#8f8a80",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 414849855.23816997,
+      "eccentricity": 0.2313,
+      "inclinationRad": 0.6080727113948244,
+      "ascendingNodeRad": 3.020990402276985,
+      "argPeriapsisRad": 5.411393345808419,
+      "meanAnomalyAtEpochRad": 1.361356816555577,
+      "periodSec": 145670400
+    },
+    "description": "The third-largest asteroid, on an unusually steep orbit tilted almost 35° out of the plane of the planets.",
+    "facts": [
+      "Its extreme tilt makes Pallas one of the hardest large asteroids for spacecraft to visit."
+    ]
+  },
+  {
+    "id": "hygiea",
+    "name": "10 Hygiea",
+    "category": "asteroid",
+    "physical": {
+      "radiusKm": 217,
+      "massKg": 87000000000000000000
+    },
+    "color": "#6d6862",
+    "surface": "rockyDark",
+    "orbit": {
+      "semiMajorAxisKm": 469542836.76609,
+      "eccentricity": 0.1146,
+      "inclinationRad": 0.06702064327658225,
+      "ascendingNodeRad": 4.942772441647941,
+      "argPeriapsisRad": 5.450663253978291,
+      "meanAnomalyAtEpochRad": 2.652900463031381,
+      "periodSec": 175392000
+    },
+    "description": "The fourth-largest object in the asteroid belt, a dark carbonaceous body that is nearly spherical — some astronomers argue it qualifies as a dwarf planet.",
+    "facts": []
+  },
+  {
+    "id": "eros",
+    "name": "433 Eros",
+    "category": "asteroid",
+    "physical": {
+      "radiusKm": 8.4
+    },
+    "color": "#9a8d7c",
+    "surface": "rockyDark",
+    "orbit": {
+      "semiMajorAxisKm": 218128655.26766998,
+      "eccentricity": 0.2226,
+      "inclinationRad": 0.1890191579909859,
+      "ascendingNodeRad": 5.311036913818745,
+      "argPeriapsisRad": 3.1206487025658616,
+      "meanAnomalyAtEpochRad": 5.585053606381854,
+      "periodSec": 55572480.00000001
+    },
+    "description": "A near-Earth asteroid shaped like a peanut, and the first asteroid ever orbited and landed on by a spacecraft (NEAR Shoemaker, 2001).",
+    "facts": [
+      "Eros crosses the orbit of Mars and comes within 0.15 AU of Earth's orbit."
+    ]
+  }
+]

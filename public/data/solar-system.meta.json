@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "generatedAt": "2026-07-06T00:40:58.699Z",
+  "epoch": "J2000",
+  "units": {
+    "length": "km",
+    "time": "s",
+    "angle": "rad"
+  },
+  "counts": {
+    "planets": 8,
+    "dwarfPlanets": 5,
+    "moons": 16,
+    "comets": 5,
+    "namedAsteroids": 4,
+    "asteroidField": 7000
+  },
+  "files": {
+    "planets": "planets.v1.json",
+    "moons": "moons.v1.json",
+    "comets": "comets.v1.json",
+    "namedAsteroids": "asteroids-named.v1.json",
+    "asteroidField": "asteroids.v1.bin",
+    "orbitPaths": "orbit-paths.v1.bin"
+  }
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "moon",
+    "name": "Moon",
+    "category": "moon",
+    "parentId": "earth",
+    "physical": {
+      "radiusKm": 1737.4,
+      "massKg": 7.342e+22
+    },
+    "color": "#b8b4ae",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 384400,
+      "eccentricity": 0.0549,
+      "inclinationRad": 0.08979719001510825,
+      "ascendingNodeRad": 4.359832471481836,
+      "argPeriapsisRad": 3.249803067213442,
+      "meanAnomalyAtEpochRad": 5.679301385989549,
+      "periodSec": 2360594.88
+    },
+    "rotation": {
+      "periodSec": 2360594.88,
+      "axialTiltRad": 0
+    },
+    "description": "Earth's companion, a quarter of Earth's diameter — proportionally the largest moon of any planet. Its distance is famously underestimated: all seven other planets would fit in the gap.",
+    "facts": [
+      "Light from the Moon reaches Earth in 1.3 seconds.",
+      "The Moon drifts 3.8 cm farther from Earth every year.",
+      "It is tidally locked: the same face always points at Earth."
+    ]
+  },
+  {
+    "id": "phobos",
+    "name": "Phobos",
+    "category": "moon",
+    "parentId": "mars",
+    "physical": {
+      "radiusKm": 11.27
+    },
+    "color": "#7a7168",
+    "surface": "rockyDark",
+    "orbit": {
+      "semiMajorAxisKm": 9376,
+      "eccentricity": 0.0151,
+      "inclinationRad": 0.01907644872429802,
+      "ascendingNodeRad": 3.881612256435389,
+      "argPeriapsisRad": 5.229006438975012,
+      "meanAnomalyAtEpochRad": 0.8168140899333463,
+      "periodSec": 27552.960000000003
+    },
+    "rotation": {
+      "periodSec": 27552.960000000003,
+      "axialTiltRad": 0
+    },
+    "description": "Mars's larger moon orbits so close and so fast that it rises in the west and sets in the east — twice a day.",
+    "facts": [
+      "Phobos is spiralling inward and will crash into Mars or shatter into a ring within ~50 million years."
+    ]
+  },
+  {
+    "id": "deimos",
+    "name": "Deimos",
+    "category": "moon",
+    "parentId": "mars",
+    "physical": {
+      "radiusKm": 6.2
+    },
+    "color": "#867d72",
+    "surface": "rockyDark",
+    "orbit": {
+      "semiMajorAxisKm": 23463,
+      "eccentricity": 0.00033,
+      "inclinationRad": 0.016231562043547264,
+      "ascendingNodeRad": 5.016076270231704,
+      "argPeriapsisRad": 0.08028514559173917,
+      "meanAnomalyAtEpochRad": 1.9512781037296607,
+      "periodSec": 109071.36
+    },
+    "rotation": {
+      "periodSec": 109071.36,
+      "axialTiltRad": 0
+    },
+    "description": "Mars's smaller, outer moon — a lumpy rock just 12 km across, probably a captured asteroid.",
+    "facts": [
+      "From Mars's surface, Deimos looks like a bright star rather than a moon."
+    ]
+  },
+  {
+    "id": "io",
+    "name": "Io",
+    "category": "moon",
+    "parentId": "jupiter",
+    "physical": {
+      "radiusKm": 1821.6,
+      "massKg": 8.93e+22
+    },
+    "color": "#d8c05a",
+    "surface": "venusian",
+    "orbit": {
+      "semiMajorAxisKm": 421800,
+      "eccentricity": 0.0041,
+      "inclinationRad": 0.0006283185307179586,
+      "ascendingNodeRad": 2.9722957161463435,
+      "argPeriapsisRad": 5.632177496185702,
+      "meanAnomalyAtEpochRad": 0.5218534463463046,
+      "periodSec": 152850.24
+    },
+    "rotation": {
+      "periodSec": 152850.24,
+      "axialTiltRad": 0
+    },
+    "description": "The most volcanically active world in the Solar System, kneaded by Jupiter's tides. Hundreds of volcanoes erupt sulfur across its yellow surface.",
+    "facts": [
+      "Io's volcanic plumes can rise 500 km into space."
+    ]
+  },
+  {
+    "id": "europa",
+    "name": "Europa",
+    "category": "moon",
+    "parentId": "jupiter",
+    "physical": {
+      "radiusKm": 1560.8,
+      "massKg": 4.8e+22
+    },
+    "color": "#d9cfc2",
+    "surface": "icy",
+    "orbit": {
+      "semiMajorAxisKm": 671100,
+      "eccentricity": 0.009,
+      "inclinationRad": 0.008133234314293577,
+      "ascendingNodeRad": 5.611233545161769,
+      "argPeriapsisRad": 0.6754424205218056,
+      "meanAnomalyAtEpochRad": 2.546435378659727,
+      "periodSec": 306823.68
+    },
+    "rotation": {
+      "periodSec": 306823.68,
+      "axialTiltRad": 0
+    },
+    "description": "An ice-covered moon hiding a global ocean with more liquid water than all of Earth's oceans combined — a prime candidate in the search for life.",
+    "facts": [
+      "The cracked 'chaos terrain' on its surface suggests the ice shell shifts over the ocean below."
+    ]
+  },
+  {
+    "id": "ganymede",
+    "name": "Ganymede",
+    "category": "moon",
+    "parentId": "jupiter",
+    "physical": {
+      "radiusKm": 2634.1,
+      "massKg": 1.48e+23
+    },
+    "color": "#9a8f7d",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 1070400,
+      "eccentricity": 0.0013,
+      "inclinationRad": 0.0030892327760299633,
+      "ascendingNodeRad": 1.645845484630653,
+      "argPeriapsisRad": 1.7645278737662673,
+      "meanAnomalyAtEpochRad": 4.389503068765738,
+      "periodSec": 618157.4400000001
+    },
+    "rotation": {
+      "periodSec": 618157.4400000001,
+      "axialTiltRad": 0
+    },
+    "description": "The largest moon in the Solar System — bigger than the planet Mercury — and the only moon with its own magnetic field.",
+    "facts": [
+      "Ganymede also likely hides a deep subsurface ocean beneath its icy crust."
+    ]
+  },
+  {
+    "id": "callisto",
+    "name": "Callisto",
+    "category": "moon",
+    "parentId": "jupiter",
+    "physical": {
+      "radiusKm": 2410.3,
+      "massKg": 1.08e+23
+    },
+    "color": "#6f665c",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 1882700,
+      "eccentricity": 0.0074,
+      "inclinationRad": 0.003351032163829113,
+      "ascendingNodeRad": 0.20245819323134226,
+      "argPeriapsisRad": 0.3211405823669567,
+      "meanAnomalyAtEpochRad": 2.9461157773664284,
+      "periodSec": 1441929.6
+    },
+    "rotation": {
+      "periodSec": 1441929.6,
+      "axialTiltRad": 0
+    },
+    "description": "The most heavily cratered object known — a fossil surface unchanged for 4 billion years, orbiting far outside Jupiter's radiation belts.",
+    "facts": [
+      "Its distance from Jupiter's radiation makes Callisto a favoured site for hypothetical crewed bases."
+    ]
+  },
+  {
+    "id": "enceladus",
+    "name": "Enceladus",
+    "category": "moon",
+    "parentId": "saturn",
+    "physical": {
+      "radiusKm": 252.1
+    },
+    "color": "#e8eef2",
+    "surface": "icy",
+    "orbit": {
+      "semiMajorAxisKm": 238040,
+      "eccentricity": 0.0047,
+      "inclinationRad": 0.00015707963267948965,
+      "ascendingNodeRad": 0.8674286382411819,
+      "argPeriapsisRad": 5.691518690753509,
+      "meanAnomalyAtEpochRad": 0.19024088846738194,
+      "periodSec": 118385.28000000001
+    },
+    "rotation": {
+      "periodSec": 118385.28000000001,
+      "axialTiltRad": 0
+    },
+    "description": "A small, brilliantly white moon that shoots geysers of salty water from its south pole — direct samples of a subsurface ocean, delivered to space.",
+    "facts": [
+      "Enceladus reflects nearly 100% of the sunlight that hits it, making it the most reflective body in the Solar System.",
+      "Its geysers feed Saturn's E ring."
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "category": "moon",
+    "parentId": "saturn",
+    "physical": {
+      "radiusKm": 2574.7,
+      "massKg": 1.345e+23
+    },
+    "color": "#d9a44a",
+    "surface": "venusian",
+    "orbit": {
+      "semiMajorAxisKm": 1221870,
+      "eccentricity": 0.0288,
+      "inclinationRad": 0.006073745796940267,
+      "ascendingNodeRad": 5.324999547834699,
+      "argPeriapsisRad": 2.3300145514124297,
+      "meanAnomalyAtEpochRad": 2.2462387473167023,
+      "periodSec": 1377648
+    },
+    "rotation": {
+      "periodSec": 1377648,
+      "axialTiltRad": 0
+    },
+    "description": "Saturn's giant moon, the only moon with a thick atmosphere — and the only other world with rain, rivers, lakes and seas. There, the liquid is methane at −179 °C.",
+    "facts": [
+      "Titan's atmosphere is denser than Earth's.",
+      "The Huygens probe landed here in 2005 — the most distant landing ever made."
+    ]
+  },
+  {
+    "id": "rhea",
+    "name": "Rhea",
+    "category": "moon",
+    "parentId": "saturn",
+    "physical": {
+      "radiusKm": 763.8
+    },
+    "color": "#b5b1a9",
+    "surface": "icy",
+    "orbit": {
+      "semiMajorAxisKm": 527070,
+      "eccentricity": 0.0013,
+      "inclinationRad": 0.006108652381980153,
+      "ascendingNodeRad": 0.7033676885537149,
+      "argPeriapsisRad": 5.876523591464909,
+      "meanAnomalyAtEpochRad": 2.022836603061428,
+      "periodSec": 390372.48000000004
+    },
+    "rotation": {
+      "periodSec": 390372.48000000004,
+      "axialTiltRad": 0
+    },
+    "description": "Saturn's second-largest moon, an ancient ball of dirty water ice, heavily cratered and quiet.",
+    "facts": []
+  },
+  {
+    "id": "iapetus",
+    "name": "Iapetus",
+    "category": "moon",
+    "parentId": "saturn",
+    "physical": {
+      "radiusKm": 734.5
+    },
+    "color": "#8a8176",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 3560840,
+      "eccentricity": 0.0283,
+      "inclinationRad": 0.2700024352835228,
+      "ascendingNodeRad": 1.2636183784438948,
+      "argPeriapsisRad": 4.1887902047863905,
+      "meanAnomalyAtEpochRad": 6.003932626860494,
+      "periodSec": 6853377.6
+    },
+    "rotation": {
+      "periodSec": 6853377.6,
+      "axialTiltRad": 0
+    },
+    "description": "The two-faced moon: one hemisphere is coal-dark, the other snow-bright. A mysterious equatorial ridge makes it look like a walnut.",
+    "facts": [
+      "Its bright side is about ten times more reflective than its dark side."
+    ]
+  },
+  {
+    "id": "miranda",
+    "name": "Miranda",
+    "category": "moon",
+    "parentId": "uranus",
+    "physical": {
+      "radiusKm": 235.8
+    },
+    "color": "#a8a8b0",
+    "surface": "icy",
+    "orbit": {
+      "semiMajorAxisKm": 129900,
+      "eccentricity": 0.0013,
+      "inclinationRad": 0.0757472895365539,
+      "ascendingNodeRad": 3.0141836181942074,
+      "argPeriapsisRad": 5.939355444536703,
+      "meanAnomalyAtEpochRad": 1.47131255943122,
+      "periodSec": 122126.4
+    },
+    "rotation": {
+      "periodSec": 122126.4,
+      "axialTiltRad": 0
+    },
+    "description": "A patchwork moon of cliffs and canyons that looks reassembled from broken pieces. Its cliff Verona Rupes is up to 20 km tall — the highest known.",
+    "facts": [
+      "Jumping off Verona Rupes, you would fall for about 12 minutes."
+    ]
+  },
+  {
+    "id": "titania",
+    "name": "Titania",
+    "category": "moon",
+    "parentId": "uranus",
+    "physical": {
+      "radiusKm": 788.4
+    },
+    "color": "#95908a",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 436300,
+      "eccentricity": 0.0011,
+      "inclinationRad": 0.005934119456780721,
+      "ascendingNodeRad": 4.529129408925285,
+      "argPeriapsisRad": 1.1711159280881953,
+      "meanAnomalyAtEpochRad": 0.026179938779914945,
+      "periodSec": 752215.68
+    },
+    "rotation": {
+      "periodSec": 752215.68,
+      "axialTiltRad": 0
+    },
+    "description": "The largest moon of Uranus, scarred by enormous canyons from an era when its interior froze and expanded.",
+    "facts": []
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon",
+    "category": "moon",
+    "parentId": "uranus",
+    "physical": {
+      "radiusKm": 761.4
+    },
+    "color": "#847e76",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 583500,
+      "eccentricity": 0.0014,
+      "inclinationRad": 0.0010122909661567112,
+      "ascendingNodeRad": 2.4574235868080163,
+      "argPeriapsisRad": 3.8048177693476384,
+      "meanAnomalyAtEpochRad": 5.675810727485561,
+      "periodSec": 1163220.48
+    },
+    "rotation": {
+      "periodSec": 1163220.48,
+      "axialTiltRad": 0
+    },
+    "description": "The outermost large moon of Uranus, old and cratered, named — like all Uranian moons — after a Shakespeare character.",
+    "facts": []
+  },
+  {
+    "id": "triton",
+    "name": "Triton",
+    "category": "moon",
+    "parentId": "neptune",
+    "physical": {
+      "radiusKm": 1353.4,
+      "massKg": 2.14e+22
+    },
+    "color": "#d3c8be",
+    "surface": "icy",
+    "orbit": {
+      "semiMajorAxisKm": 354760,
+      "eccentricity": 0.000016,
+      "inclinationRad": 2.7401669256310974,
+      "ascendingNodeRad": 1.7191493132144147,
+      "argPeriapsisRad": 3.066543495754037,
+      "meanAnomalyAtEpochRad": 4.937536453891959,
+      "periodSec": -507764.16
+    },
+    "rotation": {
+      "periodSec": -507764.16,
+      "axialTiltRad": 0
+    },
+    "description": "Neptune's big moon orbits backwards — the only large moon that does — a telltale sign it was captured from the Kuiper belt. Nitrogen geysers erupt from its frozen surface.",
+    "facts": [
+      "Triton's retrograde orbit is slowly decaying; in a few billion years Neptune's gravity will tear it apart.",
+      "At −235 °C it is one of the coldest places known."
+    ]
+  },
+  {
+    "id": "charon",
+    "name": "Charon",
+    "category": "moon",
+    "parentId": "pluto",
+    "physical": {
+      "radiusKm": 606,
+      "massKg": 1.586e+21
+    },
+    "color": "#93887e",
+    "surface": "cratered",
+    "orbit": {
+      "semiMajorAxisKm": 19591,
+      "eccentricity": 0.0002,
+      "inclinationRad": 0.0013962634015954637,
+      "ascendingNodeRad": 6.2098814785958245,
+      "argPeriapsisRad": 1.2740903539558606,
+      "meanAnomalyAtEpochRad": 3.145083312093782,
+      "periodSec": 551854.08
+    },
+    "rotation": {
+      "periodSec": 551854.08,
+      "axialTiltRad": 0
+    },
+    "description": "Pluto's giant companion — half Pluto's diameter, so large that the pair form a true double dwarf-planet system.",
+    "facts": [
+      "Pluto and Charon always show each other the same face: both are tidally locked."
+    ]
+  }
+]

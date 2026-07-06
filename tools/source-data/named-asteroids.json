@@ -1,0 +1,75 @@
+[
+  {
+    "id": "vesta",
+    "name": "4 Vesta",
+    "radiusKm": 262.7,
+    "massKg": 2.59e20,
+    "color": "#a89c88",
+    "surface": "cratered",
+    "aAu": 2.3615,
+    "e": 0.0886,
+    "iDeg": 7.14,
+    "nodeDeg": 103.85,
+    "periDeg": 151.19,
+    "m0Deg": 205,
+    "periodDays": 1325.75,
+    "description": "The second-most-massive asteroid and the brightest one visible from Earth. NASA's Dawn spacecraft orbited it in 2011–2012 and found a world with a giant impact basin at its south pole.",
+    "facts": [
+      "Around 1 in 20 meteorites found on Earth are chips knocked off Vesta."
+    ]
+  },
+  {
+    "id": "pallas",
+    "name": "2 Pallas",
+    "radiusKm": 256,
+    "massKg": 2.04e20,
+    "color": "#8f8a80",
+    "surface": "cratered",
+    "aAu": 2.7731,
+    "e": 0.2313,
+    "iDeg": 34.84,
+    "nodeDeg": 173.09,
+    "periDeg": 310.05,
+    "m0Deg": 78,
+    "periodDays": 1686,
+    "description": "The third-largest asteroid, on an unusually steep orbit tilted almost 35° out of the plane of the planets.",
+    "facts": [
+      "Its extreme tilt makes Pallas one of the hardest large asteroids for spacecraft to visit."
+    ]
+  },
+  {
+    "id": "hygiea",
+    "name": "10 Hygiea",
+    "radiusKm": 217,
+    "massKg": 8.7e19,
+    "color": "#6d6862",
+    "surface": "rockyDark",
+    "aAu": 3.1387,
+    "e": 0.1146,
+    "iDeg": 3.84,
+    "nodeDeg": 283.2,
+    "periDeg": 312.3,
+    "m0Deg": 152,
+    "periodDays": 2030,
+    "description": "The fourth-largest object in the asteroid belt, a dark carbonaceous body that is nearly spherical — some astronomers argue it qualifies as a dwarf planet.",
+    "facts": []
+  },
+  {
+    "id": "eros",
+    "name": "433 Eros",
+    "radiusKm": 8.4,
+    "color": "#9a8d7c",
+    "surface": "rockyDark",
+    "aAu": 1.4581,
+    "e": 0.2226,
+    "iDeg": 10.83,
+    "nodeDeg": 304.3,
+    "periDeg": 178.8,
+    "m0Deg": 320,
+    "periodDays": 643.2,
+    "description": "A near-Earth asteroid shaped like a peanut, and the first asteroid ever orbited and landed on by a spacecraft (NEAR Shoemaker, 2001).",
+    "facts": [
+      "Eros crosses the orbit of Mars and comes within 0.15 AU of Earth's orbit."
+    ]
+  }
+]
